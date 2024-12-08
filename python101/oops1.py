@@ -44,6 +44,9 @@ class Car:
     def __done(self):
         print(f'{self.brand} {self.model} was added ')    
 
+    def callit(self):
+        print(f'this function can be aceessed outside ,ur car is {self.year} model')    
+
     # unhidden function can be called outside as well    
 
    
@@ -56,3 +59,9 @@ car33 = Car('Nissan','Altima',2020)
 # use Capital 
 # carr11 was inside  the class ,error
 
+car11.callit()
+car22.callit()
+car33.callit()
+# car33.done()
+
+car44 = Car('Hyundai','Creata',2022)
