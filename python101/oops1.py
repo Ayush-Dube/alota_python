@@ -65,3 +65,6 @@ car33.callit()
 # car33.done()
 
 car44 = Car('Hyundai','Creata',2022)
+
+a:int = 8
+print(type(a))
