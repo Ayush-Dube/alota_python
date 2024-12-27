@@ -25,7 +25,8 @@ class Soldier(Person):
         print("soldier  info method ")
     
 class Player(Person):
-    pass
+    
+    def __init__(self,name,age,gender,service,rank)
     
         
 
