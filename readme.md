@@ -10,4 +10,10 @@
 #### windows hidden files
   - Get-ChildItem -Force 
 
-- explore Qt Widget designer
+
+### 🔥 Pending Exploration
+- explore Qt Widget designer--pending
+- progress bar logic in command line
+
+- checking if we directly go to a folder deep inside and commit form there,  
+  whether any changes from out side folder files will also get added and commited.
