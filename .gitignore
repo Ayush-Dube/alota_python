@@ -1,5 +1,13 @@
-/random    
+# /random    
+
 # observe i have 3 folders named random at different leveles and in different folders
 # the gitignore file is at my repo level ,and immediatley there , it has a folder named random so ,
 # the /random will attack this rendom folder and not the random folder that is inside tkinter folder , 
 # also because this random folder has a another random folder inside it , that also would be ignored (targeted)
+
+# after doing operation with above value , it ignored the immdeate random folder , but uploaded the random folder inside the tkinter folder 
+#also /random is same as /random/ slash at the end tells(confirms or implicates) that it is a folder/dir.
+
+#now use 
+
+random/
