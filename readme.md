@@ -58,5 +58,8 @@
                   modified:   .gitignore
                   modified:   readme.md
 
+    - to check go to the tkinter --> and do git status
+    - in vscode all folders named random will show up in faded fonts
+
 
 - next topic
