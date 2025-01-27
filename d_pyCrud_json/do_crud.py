@@ -1,3 +1,4 @@
+
 class Player():
     def __init__(self,name,age,height,weight,education,game):
         self.__name = name
@@ -9,11 +10,29 @@ class Player():
 
     def show_plyr(self):
         print(f"'name':{self.__name},'age':{self.__age},'height':{self.__height},'weight':{self.__weight},'education':{self.__education},'game':{self.game}")
+
+    def plyr_dict(self):
+        return        {
+            'name': self.__name,
+            'age': self.__age,
+            'height': self.__height,
+            'weight': self.__weight,
+            'education': self.__education,
+            'game':self.game
+        }
         
 
 
-p1 = Player('adam',25,171,66,'btech','Archery')
+p1 = Player('Adam',25,171,66,'btech','Archery')
+p2 = Player('Bella',21,163,61,'bsc','BasketBall')
 
 print(p1)
 print(p1.game)
-print(p1.show_plyr())
+p1.show_plyr()
+p2.show_plyr()
+
+pd1=p1.plyr_dict()
+pd2=p2.plyr_dict()
+
+print(pd1)
+print(pd2)
