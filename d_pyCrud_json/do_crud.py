@@ -1,4 +1,4 @@
-
+import json
 class Player():
     def __init__(self,name,age,height,weight,education,game):
         self.__name = name
@@ -22,10 +22,20 @@ class Player():
         }
         
     def str_dict(self):
-        return f"""{
-            {"name": self.__name, "age": self.__age, "height": self.__height, "weight": self.__weight, "education": self.__education, "game": self.game}
-        }"""
-
+        # return f"""{
+        #     {"name": self.__name, "age": self.__age, "height": self.__height, "weight": self.__weight, "education": self.__education, "game": self.game}
+        # }"""
+        
+        # another way
+        data = {
+            "name":{self.__name},
+            "age":{self.__age},
+            "height":{self.__height},
+            "weight":{self.weight},
+            "education":{self.__education},
+            "game":{self.game}
+        }
+        return json.dumps(data)
 
 p1 = Player('Adam',25,171,66,'btech','Archery')
 p2 = Player('Bella',21,163,61,'bsc','BasketBall')
@@ -46,4 +56,5 @@ psd2 = p2.str_dict()
 
 print(psd1)
 
-print(pd1['age'],psd2['age'])
+print(pd1['age'],type(psd2))
+print(psd2['age'])
