@@ -1,6 +1,5 @@
 # in the budget for 2025 , new tax slabs are introduced , lets see how much anybody has to pay as taxes
 
-usr = int(input('Enter ur income:-'))
 
 
 def calculate_tax(usr):
@@ -47,6 +46,19 @@ def calculate_tax(usr):
         print(f"ur tax {tax}")
 
 
+while True:
+    print('press 1 to start')
+    print('press 2 to exit')
+    choice = int(input('Enter ur choice bwtween 1 and 2 :- '))
+
+    if choice == 2:
+        print('Exiting...')
+        break
+
+    elif choice ==1:
+        usr = int(input('Enter ur income:-'))
+        calculate_tax(usr)
+    else:
+        print('Enter valid option 1/2')
 
         
-calculate_tax(usr)
