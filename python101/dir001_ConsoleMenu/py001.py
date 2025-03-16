@@ -66,4 +66,4 @@ while True:
 
 
     else:
-        print("Select  a valid option from 1,2,3,4")
+        print("Select  a valid option from 1,2,3,4,5,6,7")
