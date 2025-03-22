@@ -28,11 +28,11 @@ class Player():
         
         # another way
         data = {
-            "name":{self.__name},
-            "age":{self.__age},
-            "height":{self.__height},
+            "name":{self.name},
+            "age":{self.age},
+            "height":{self.height},
             "weight":{self.weight},
-            "education":{self.__education},
+            "education":{self.education},
             "game":{self.game}
         }
         return json.dumps(data)

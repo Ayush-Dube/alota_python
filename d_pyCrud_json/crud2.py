@@ -17,12 +17,14 @@ def add_it(name):
     data.append(name)
 
 print(data)
-add_it('apple1')    
+add_it('apple1new')    
 add_it('apple2')    
 add_it('apple3')    
-add_it('apple4')    
+add_it('apple4new')    
 
 print(data)
+
+# this will ovewrite the previous values
 
 with open('txtStore.txt','w') as f:
     f.write(f'{data}')
