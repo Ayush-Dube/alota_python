@@ -1,0 +1,8 @@
+
+[
+    {"name": "Roma", "age": 23, "unit": "Signals", "gender": "male"},
+    {"name": "Ambr", "age": 25, "unit": "RR", "gender": "male"},
+    {"name": "Charu", "age": 26, "unit": "AMC", "gender": "female"},
+    {"name": "Dedil", "age": 22, "unit": "Artillery", "gender": "female"},
+    {"name": "Teja", "age": 27, "unit": "9Guards", "gender": "NB"}
+]
